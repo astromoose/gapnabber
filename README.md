@@ -1,7 +1,7 @@
 #GapNabber#
 
 
-*So that* I can scrape a useful catalogue of product *ata from gap.com with colour and size information
+*So that* I can scrape a useful catalogue of product data from gap.com with colour and size information
 *As a* Gapnabbing chap
 *I can* run a script passing in a url and produce portable, serialised data expressing the above catalogue
 
@@ -15,9 +15,11 @@ celerity
 yaml
 
 ## Usage ##
+```
 Usage: ./gapnabber [options]
     -u, --url U                      Nab from the specified url
     -h, --help                       Display this screen
+```
 
 ## What works ##
 * Parses a url, goes to it and grabs a list of urls from the page - seems to work on all GAP category pages
@@ -29,5 +31,5 @@ Usage: ./gapnabber [options]
 
 ## TODO
 * Fork product data loop for speed - this would need some abstraction work, jruby does not support fork (unsafe, apparently)
-* Tidy up yaml, newlines all over the place and special characters galore
+* Tidy up yaml, newlines all over the place and special characters galore. Also, id/name should be first after the index field
 * Add a 'quiet' option to suppress the browsing output
