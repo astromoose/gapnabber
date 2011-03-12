@@ -15,9 +15,9 @@ celerity
 yaml
 
 ## Usage ##
->Usage: ./gapnabber [options]
->    -u, --url U                      Nab from the specified url
->    -h, --help                       Display this screen
+    Usage: ./gapnabber [options]
+    -u, --url U                      Nab from the specified url
+    -h, --help                       Display this screen
 
 ## What works ##
 * Parses a url, goes to it and grabs a list of urls from the page - seems to work on all GAP category pages
