@@ -1,0 +1,426 @@
+--- 
+"5745": 
+  /browse/product.do?cid=8993&vid=1&pid=802781: !ruby/object:Product 
+    colours: 
+      - " constellation blue - $59.50 \n"
+      - " wassel - $59.50 \n"
+      - " true black knit - $59.50"
+    id: "802781"
+    name: "The soft cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831672: !ruby/object:Product 
+    colours: 
+      - " brown heather - $59.95 \n"
+      - " blue - $59.95 \n"
+      - " true black knit - $59.95"
+    id: "831672"
+    name: "Open shawl cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831677: !ruby/object:Product 
+    colours: 
+      - " true black knit - $59.95 \n"
+      - " acapulco sand - $59.95"
+    id: "831677"
+    name: "Beaded grandpa cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831656: !ruby/object:Product 
+    colours: 
+      - " royal teal - $54.95 \n"
+      - " spa blue - $54.95 \n"
+      - " true black knit - $54.95 \n"
+      - " hot coral - $54.95 \n"
+      - " sea shell - $54.95 \n"
+      - " navy - $54.95 \n"
+      - " storm - $54.95 \n"
+      - " polaris - $54.95"
+    id: "831656"
+    name: "Grandpa cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831656&scid=831656012: !ruby/object:Product 
+    colours: 
+      - " royal teal - $54.95 \n"
+      - " spa blue - $54.95 \n"
+      - " true black knit - $54.95 \n"
+      - " hot coral - $54.95 \n"
+      - " sea shell - $54.95 \n"
+      - " navy - $54.95 \n"
+      - " storm - $54.95 \n"
+      - " polaris - $54.95"
+    id: 831656&scid
+    name: "Grandpa cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831675: !ruby/object:Product 
+    colours: 
+      - " blue indigo - $49.95 \n"
+      - " sea shell - $49.95 \n"
+      - " true black knit - $49.95"
+    id: "831675"
+    name: "Shrunken cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831676: !ruby/object:Product 
+    colours: 
+      - " moon gray - $59.50 \n"
+      - " wassel - $59.50"
+    id: "831676"
+    name: "Ruffle cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831684: !ruby/object:Product 
+    colours: 
+      - " equinox blue - $54.95 \n"
+      - " gray matter - $54.95 \n"
+      - " mauve morn - $54.95"
+    id: "831684"
+    name: "Cropped v-neck cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831665: !ruby/object:Product 
+    colours: 
+      - " true black knit - $59.95 \n"
+      - " royal teal - $59.95"
+    id: "831665"
+    name: "Waterfall cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802779: !ruby/object:Product 
+    colours: 
+      - " lilac stone - $59.50 \n"
+      - " bellini peach - $59.50 \n"
+      - " true black knit - $59.50 \n"
+      - " constellation blue - $59.50"
+    id: "802779"
+    name: "Corsage cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831662: !ruby/object:Product 
+    colours: 
+      - " new silver lake - $49.50 \n"
+      - " royal teal - $49.50 \n"
+      - " true black knit - $49.50"
+    id: "831662"
+    name: "Cinch neck cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802788: !ruby/object:Product 
+    colours: 
+      - " charcoal - $39.99 \n"
+      - " crushed berry - $49.50 \n"
+      - " true black knit - $29.99 \n"
+      - " sheer teal - $39.99 \n"
+      - " winter ochre - $39.99 \n"
+      - " wassel - $49.50"
+    id: "802788"
+    name: "Ribbed waist cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802786: !ruby/object:Product 
+    colours: 
+      - " black rock - $59.99 \n"
+      - " mauve desert - $54.99"
+    id: "802786"
+    name: "Floral kimono cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802755: !ruby/object:Product 
+    colours: 
+      - " charcoal - $49.99"
+    id: "802755"
+    name: "Ribbed wrap cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802770: !ruby/object:Product 
+    colours: 
+      - " charcoal - $44.99 \n"
+      - " true black knit - $44.99 \n"
+      - " mushroom - $44.99"
+    id: "802770"
+    name: "Single closure shawl cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802784: !ruby/object:Product 
+    colours: 
+      - " moon gray - $39.99 \n"
+      - " true black knit - $29.99 \n"
+      - " constellation blue - $29.99"
+    id: "802784"
+    name: "Shimmer cocoon shrug "
+  /browse/product.do?cid=8993&vid=1&pid=802773: !ruby/object:Product 
+    colours: 
+      - " light chocolate - $49.99 \n"
+      - " navy heather - $34.99 \n"
+      - " true black knit - $29.99"
+    id: "802773"
+    name: "Three-quarter sleeve cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=804873: !ruby/object:Product 
+    colours: 
+      - " hedgehog - $39.99 \n"
+      - " true black knit - $34.99"
+    id: "804873"
+    name: "Sweater blazer "
+  /browse/product.do?cid=8993&vid=1&pid=802783: !ruby/object:Product 
+    colours: 
+      - " barely purple - $34.99 \n"
+      - " true black knit - $39.99"
+    id: "802783"
+    name: "Cropped beaded cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802785: !ruby/object:Product 
+    colours: 
+      - " true black knit - $34.99 \n"
+      - " mushroom - $39.99 \n"
+      - " summer azalea - $29.99 \n"
+      - " charcoal - $34.99"
+    id: "802785"
+    name: "Shirred waist cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802789: !ruby/object:Product 
+    colours: 
+      - " winter ochre - $49.99"
+    id: "802789"
+    name: "Tonal stripe cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=831674: !ruby/object:Product 
+    colours: 
+      - " true navy - $44.99"
+    id: "831674"
+    name: "Beaded cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802761: !ruby/object:Product 
+    colours: 
+      - " lilac stone - $34.99 \n"
+      - " true navy - $34.99 \n"
+      - " green thumb - $34.99 \n"
+      - " hushed violet - $34.99 \n"
+      - " true black knit - $34.99 \n"
+      - " blue heather - $39.50 \n"
+      - " peacock feather - $34.99 \n"
+      - " dew drop - $34.99 \n"
+      - " summer azalea - $34.99 \n"
+      - " heather gray - $34.99 \n"
+      - " pink heather - $39.50"
+    id: "802761"
+    name: "Enamel-button cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802774: !ruby/object:Product 
+    colours: 
+      - " hushed violet - $29.99 \n"
+      - " canvas - $24.99 \n"
+      - " true black knit - $24.99"
+    id: "802774"
+    name: "Woven-back cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802776: !ruby/object:Product 
+    colours: 
+      - " teal - $88.99 \n"
+      - " icy blue - $88.99 \n"
+      - " true black knit - $88.99 \n"
+      - " dusty pink - $79.99"
+    id: "802776"
+    name: "Cashmere cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802762: !ruby/object:Product 
+    colours: 
+      - " dull rose - $39.99 \n"
+      - " off white - $34.99 \n"
+      - " true black knit - $29.99"
+    id: "802762"
+    name: "Lace back cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802771: !ruby/object:Product 
+    colours: 
+      - " true black knit - $54.99 \n"
+      - " true navy - $29.99"
+    id: "802771"
+    name: "Open-front cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802760: !ruby/object:Product 
+    colours: 
+      - " plum - $39.99 \n"
+      - " true navy - $39.99 \n"
+      - " true black knit - $29.99 \n"
+      - " charcoal - $29.99 \n"
+      - " soft red - $39.99 \n"
+      - " sheer teal - $39.99 \n"
+      - " heather gray - $24.99 \n"
+      - " wassel - $29.99"
+    id: "802760"
+    name: "Shirred shoulder cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=802772: !ruby/object:Product 
+    colours: 
+      - " lilac stone - $39.99 \n"
+      - " true black knit - $29.99 \n"
+      - " country blue - $39.99"
+    id: "802772"
+    name: "Tie-front cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=804874: !ruby/object:Product 
+    colours: 
+      - " true black knit - $24.99 \n"
+      - " putty pink - $29.99"
+    id: "804874"
+    name: "Beaded shoulder cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=832154: !ruby/object:Product 
+    colours: 
+      - " true black knit - $34.99 \n"
+      - " moon gray - $29.99"
+    id: "832154"
+    name: "Sequin shrug "
+  /browse/product.do?cid=8993&vid=1&pid=840021: !ruby/object:Product 
+    colours: 
+      - " ash - $54.99 \n"
+      - " ebony - $54.99"
+    id: "840021"
+    name: "Lux cardigan "
+  /browse/product.do?cid=8993&vid=1&pid=835850: !ruby/object:Product 
+    colours: 
+      - " shady brown - $39.99 \n"
+      - " true black - $39.99"
+    id: "835850"
+    name: "Tri-blend pintucked wrap "
+  /browse/product.do?cid=8988&vid=1&pid=802782: !ruby/object:Product 
+    colours: 
+      - " silver gray - $59.50 \n"
+      - " true indigo - $59.50"
+    id: "802782"
+    name: "Shimmer dolman sweater "
+  /browse/product.do?cid=8988&vid=1&pid=802759: !ruby/object:Product 
+    colours: 
+      - " green heather - $49.50 \n"
+      - " navy heather - $39.99 \n"
+      - " peacock feather - $39.99 \n"
+      - " pavement - $34.99 \n"
+      - " true black knit - $34.99 \n"
+      - " lilac stone - $49.50 \n"
+      - " wassel - $39.99 \n"
+      - " turtle green - $39.99 \n"
+      - " malibu peach - $39.99 \n"
+      - " light chocolate - $39.99"
+    id: "802759"
+    name: "Shoulder-stitch sweater "
+  /browse/product.do?cid=8988&vid=1&pid=802759&scid=802759072: !ruby/object:Product 
+    colours: 
+      - " green heather - $49.50 \n"
+      - " navy heather - $39.99 \n"
+      - " peacock feather - $39.99 \n"
+      - " pavement - $34.99 \n"
+      - " true black knit - $34.99 \n"
+      - " lilac stone - $49.50 \n"
+      - " wassel - $39.99 \n"
+      - " turtle green - $39.99 \n"
+      - " malibu peach - $39.99 \n"
+      - " light chocolate - $39.99"
+    id: 802759&scid
+    name: "Shoulder-stitch sweater "
+  /browse/product.do?cid=8988&vid=1&pid=802759&scid=802759122: !ruby/object:Product 
+    colours: 
+      - " green heather - $49.50 \n"
+      - " navy heather - $39.99 \n"
+      - " peacock feather - $39.99 \n"
+      - " pavement - $34.99 \n"
+      - " true black knit - $34.99 \n"
+      - " lilac stone - $49.50 \n"
+      - " wassel - $39.99 \n"
+      - " turtle green - $39.99 \n"
+      - " malibu peach - $39.99 \n"
+      - " light chocolate - $39.99"
+    id: 802759&scid
+    name: "Shoulder-stitch sweater "
+  /browse/product.do?cid=8988&vid=1&pid=808744: !ruby/object:Product 
+    colours: 
+      - " true black knit - $54.99 \n"
+      - " new cashmere - $54.99"
+    id: "808744"
+    name: "Woven-back sweater "
+  /browse/product.do?cid=8988&vid=1&pid=802766: !ruby/object:Product 
+    colours: 
+      - " potpourri pink - $34.99 \n"
+      - " black rock - $24.99 \n"
+      - " duchess blue - $29.99 \n"
+      - " lilac stone - $29.99"
+    id: "802766"
+    name: "Gathered pintuck sweater "
+  /browse/product.do?cid=8988&vid=1&pid=802768: !ruby/object:Product 
+    colours: 
+      - " true indigo - $44.99 \n"
+      - " true black knit - $34.99"
+    id: "802768"
+    name: "Beaded V-neck sweater "
+  /browse/product.do?cid=8998&vid=1&pid=831668: !ruby/object:Product 
+    colours: 
+      - " new silver lake - $49.95 \n"
+      - " storm - $49.95"
+    id: "831668"
+    name: "Waterfall crewneck "
+  /browse/product.do?cid=8998&vid=1&pid=831666: !ruby/object:Product 
+    colours: 
+      - " true black knit - $49.95 \n"
+      - " cement - $49.95"
+    id: "831666"
+    name: "Mixed media sweater "
+  /browse/product.do?cid=8998&vid=1&pid=831655: !ruby/object:Product 
+    colours: 
+      - " true black knit - $29.50 \n"
+      - " pangea blue - $29.50 \n"
+      - " oatmeal heather - $29.50 \n"
+      - " storm - $29.50"
+    id: "831655"
+    name: "Cuffed crewneck sweater "
+  /browse/product.do?cid=8998&vid=1&pid=804877: !ruby/object:Product 
+    colours: 
+      - " bellini peach - $39.99 \n"
+      - " true black knit - $34.99"
+    id: "804877"
+    name: "Ruched sweater "
+  /browse/product.do?cid=8998&vid=1&pid=802780: !ruby/object:Product 
+    colours: 
+      - " hushed violet - $39.99 \n"
+      - " true black knit - $29.99 \n"
+      - " moon gray - $29.99 \n"
+      - " wassel - $29.99"
+    id: "802780"
+    name: "Twist back sweater "
+  /browse/product.do?cid=8998&vid=1&pid=802780&scid=802780032: !ruby/object:Product 
+    colours: 
+      - " hushed violet - $39.99 \n"
+      - " true black knit - $29.99 \n"
+      - " moon gray - $29.99 \n"
+      - " wassel - $29.99"
+    id: 802780&scid
+    name: "Twist back sweater "
+  /browse/product.do?cid=8998&vid=1&pid=802775: !ruby/object:Product 
+    colours: 
+      - " mauve desert - $49.99 \n"
+      - " pretty mint green - $29.99 \n"
+      - " true black knit - $34.99"
+    id: "802775"
+    name: "Roll neck sweater "
+  /browse/product.do?cid=8998&vid=1&pid=802750: !ruby/object:Product 
+    colours: 
+      - " nugget gold - $39.99 \n"
+      - " aerospace - $29.99 \n"
+      - " cheer - $34.99 \n"
+      - " charcoal - $29.99 \n"
+      - " true black knit - $24.99 \n"
+      - " chocolate milk - $24.99"
+    id: "802750"
+    name: "Zip sweater "
+  /browse/product.do?cid=8998&vid=1&pid=802750&scid=802750012: !ruby/object:Product 
+    colours: 
+      - " nugget gold - $39.99 \n"
+      - " aerospace - $29.99 \n"
+      - " cheer - $34.99 \n"
+      - " charcoal - $29.99 \n"
+      - " true black knit - $24.99 \n"
+      - " chocolate milk - $24.99"
+    id: 802750&scid
+    name: "Zip sweater "
+  /browse/product.do?cid=57090&vid=1&pid=804872&scid=804872012: !ruby/object:Product 
+    colours: 
+      - " true black knit - $49.50 \n"
+      - " light chocolate - $49.50"
+    id: 804872&scid
+    name: "Ribbed lapel vest "
+  /browse/product.do?cid=57090&vid=1&pid=804872&scid=804872002: !ruby/object:Product 
+    colours: 
+      - " true black knit - $49.50 \n"
+      - " light chocolate - $49.50"
+    id: 804872&scid
+    name: "Ribbed lapel vest "
+  /browse/product.do?cid=61687&vid=1&pid=802776&scid=802776012: !ruby/object:Product 
+    colours: 
+      - " teal - $88.99 \n"
+      - " icy blue - $88.99 \n"
+      - " true black knit - $88.99 \n"
+      - " dusty pink - $79.99"
+    id: 802776&scid
+    name: "Cashmere cardigan "
+  /browse/product.do?cid=61687&vid=1&pid=802776&scid=802776052: !ruby/object:Product 
+    colours: 
+      - " teal - $88.99 \n"
+      - " icy blue - $88.99 \n"
+      - " true black knit - $88.99 \n"
+      - " dusty pink - $79.99"
+    id: 802776&scid
+    name: "Cashmere cardigan "
+  /browse/product.do?cid=61687&vid=1&pid=802776&scid=802776002: !ruby/object:Product 
+    colours: 
+      - " teal - $88.99 \n"
+      - " icy blue - $88.99 \n"
+      - " true black knit - $88.99 \n"
+      - " dusty pink - $79.99"
+    id: 802776&scid
+    name: "Cashmere cardigan "
+  /browse/product.do?cid=61687&vid=1&pid=802776&scid=802776062: !ruby/object:Product 
+    colours: 
+      - " teal - $88.99 \n"
+      - " icy blue - $88.99 \n"
+      - " true black knit - $88.99 \n"
+      - " dusty pink - $79.99"
+    id: 802776&scid
+    name: "Cashmere cardigan "

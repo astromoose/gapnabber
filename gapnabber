@@ -1,0 +1,93 @@
+#!/usr/bin/env jruby
+
+=begin
+Author: Jon Anning
+Date: Friday, 11th March 2011
+
+Problem:
+Have a look at http://www.gap.com/browse/category.do?cid=17076; it's a listing of all the items a clothing company sells in a particular category (possibly broken up into several pages). 
+If you summed up all the pages like this, then you'd have their complete catalog. 
+
+What we're looking for is a program which takes the url of a category page like this and returns a file containing all the items on that page. 
+For each item you'll have to get information that's on the item detail page (i.e. http://www.gap.com/browse/product.do?cid=17083&vid=1&pid=817866); 
+the file should have each item's title (i.e. Cowl front T), item number (817866), price ($34.50), and the list of colors and sizes it's available in (just for regular; don't bother with tall & petite). 
+
+Extra credit if you can grab the cid parameter in the url of the popup that clicking on "size chart" brings up.
+=end
+
+require 'rubygems'
+require 'celerity'
+require 'optparse'
+require 'uri'
+require 'yaml'
+
+class Product
+	attr_accessor :id, :name, :colours
+	def initialize(id, name, colours)
+	  @id = id
+	  @name = name
+	  @colours = colours
+	end
+end
+
+options = {}
+url = nil
+
+optparse = OptionParser.new do |opts|
+        opts.banner = "Usage: ./#{File.basename(__FILE__)} [options]"
+        opts.on( '-u', '--url U', 'Nab from the specified url' ) { |v| url = v; }
+        opts.on( '-h', '--help', 'Display this screen' ) { exit }
+end
+
+begin
+        optparse.parse!
+        raise Exception.new "Please specify url you want to nab from" if url.nil?
+rescue Exception => e
+        puts e.message
+        puts optparse.help
+        exit 1
+end
+
+begin
+	# Parse the url into parts, so full urls can be constructed from partials later
+	baseurl = URI.parse(url)
+        host = baseurl.host
+        path = baseurl.path
+	category = baseurl.query.split('=').map[1]
+	puts category
+	browser = Celerity::Browser.new
+	# Turn of javascript, pesky pesky javascript. This does mean that the page is somewhat unavailable to celerity - no size div or chart popup.
+	browser.webclient.setJavaScriptEnabled(false)
+	# Hit the page passed in
+	browser.goto(url)
+		puts "Browsing to: " + browser.url
+		puts "Found " + browser.links.count.to_s + " links"
+	products = browser.links.select { |link| link.href =~ /product.do/ && link.text.empty? }
+		puts "Found " + products.uniq.count.to_s + " unique product links"
+	# Create productdata hash
+	productdata = Hash.new()
+	productdata[category] = Hash.new()
+	# Loop over the products
+	products.uniq.each do |product|
+		producturl=product.href
+			puts "browsing to: " + host + producturl.to_s
+                browser.goto(host + producturl)
+		# Get the product id from the url query
+		itemnumber = URI.parse(host + producturl).query.split('=').map[3]
+			puts "Item Number:" + itemnumber
+		# Get the page title (expecting something like an item's name)
+		itemname = browser.title.split('|')[0]
+			puts "Item Name: " + itemname
+		# Get a list of divs on the page and extract the colour/price information
+		colours = browser.div(:id, "productContentRight").text.grep(/\$/)
+		colours.each do |col|
+			puts col
+		end
+		# Map our data to a Product object for serialisation
+		hashdata = Product.new(itemnumber, itemname, colours)
+		# Store the object in the productdata hash
+		productdata[category].store(producturl, hashdata)
+	end
+	# Write out the productdata hash to yaml
+        File.open(category + ".yaml", "w") { |file| file.write(productdata.to_yaml) }
+end
